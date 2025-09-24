@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Header from './components/Header';
 import Homepage from './components/HomePage';
 import Products from './components/Products';
@@ -12,8 +11,8 @@ function App() {
     <>
       <Header />
       <Homepage />
-      <Products />
       <About />
+      <Products />
       <Contact />
       <Footer />
     </>
